@@ -9,23 +9,19 @@ import { AirportClock } from "@/components/terminal/AirportClock";
 import { BoardingStubCollection } from "@/components/shared/BoardingStubCollection";
 import { BoardingPass } from "@/components/boarding/BoardingPass";
 import { airportName, airportCode } from "@/lib/data";
-import { useSearchParams } from "next/navigation";
 import { useTerminalStore } from "@/lib/store";
 
 export default function TerminalPage() {
   const [checkedIn, setCheckedIn] = useState(false);
   const [mapView, setMapView] = useState(false);
   const visited = useTerminalStore((s) => s.visited);
-  const searchParams = useSearchParams();
 
   useEffect(() => {
-    try {
-      const val = searchParams.get("checkedIn");
-      if (val === "1" || val === "true") setCheckedIn(true);
-    } catch (e) {
-      // ignore in SSR or if searchParams isn't available yet
-    }
-  }, [searchParams]);
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const val = params.get("checkedIn");
+    if (val === "1" || val === "true") setCheckedIn(true);
+  }, []);
 
   return (
     <main
