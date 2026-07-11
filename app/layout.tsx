@@ -13,7 +13,7 @@ import { passenger, airportName } from "@/lib/data";
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
-  "https://kusum-sarkar-portfolio.vercel.app";
+  "https://kusum-protfolio.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -42,8 +42,9 @@ export const metadata: Metadata = {
     images: [`${siteUrl}/og-image.png`],
   },
   icons: {
-    icon: "/og-image.png",
-    apple: "/og-image.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
 };
 
