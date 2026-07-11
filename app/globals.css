@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+:root {
+  --hazel: #8a6a43;
+  --hazel-dark: #6e5334;
+  --hazel-light: #c7b299;
+  --beige: #f6f3ee;
+  --ivory: #fcfbf8;
+  --text-dark: #2c2c2c;
+  --text-muted: #6b6b6b;
+  --border: #ddd8d0;
+  --amber-signal: #b5741f;
+
+  --font-display: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+@theme inline {
+  --color-hazel: var(--hazel);
+  --color-hazel-dark: var(--hazel-dark);
+  --color-hazel-light: var(--hazel-light);
+  --color-beige: var(--beige);
+  --color-ivory: var(--ivory);
+  --color-text-dark: var(--text-dark);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-amber-signal: var(--amber-signal);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ivory);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--hazel);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--hazel-light);
+  color: var(--text-dark);
+}
+
+.flap {
+  display: inline-block;
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+
+.terminal-texture {
+  background-image: radial-gradient(var(--border) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
