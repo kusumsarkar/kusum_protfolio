@@ -38,6 +38,10 @@ export const metadata: Metadata = {
     description: passenger.summary,
     images: [`${siteUrl}/og-image.svg`],
   },
+  icons: {
+    icon: "/og-image.svg",
+    apple: "/og-image.svg",
+  },
 };
 
 export default function RootLayout({
