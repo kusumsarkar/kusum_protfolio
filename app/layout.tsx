@@ -11,7 +11,9 @@ import "@fontsource/ibm-plex-mono/600.css";
 import "./globals.css";
 import { passenger, airportName } from "@/lib/data";
 
-const siteUrl = "https://kusum-sarkar-portfolio.vercel.app";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://kusum-sarkar-portfolio.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -25,9 +27,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${siteUrl}/og-image.svg`,
+        url: `${siteUrl}/og-image.png`,
         width: 1200,
         height: 630,
+        type: "image/png",
         alt: `${passenger.fullName} — Portfolio`,
       },
     ],
@@ -36,11 +39,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Kusum Sarkar | BBA student | Social Media Infuencer",
     description: passenger.summary,
-    images: [`${siteUrl}/og-image.svg`],
+    images: [`${siteUrl}/og-image.png`],
   },
   icons: {
-    icon: "/og-image.svg",
-    apple: "/og-image.svg",
+    icon: "/og-image.png",
+    apple: "/og-image.png",
   },
 };
 
