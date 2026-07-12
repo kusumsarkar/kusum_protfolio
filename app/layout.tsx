@@ -17,29 +17,59 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Kusum Sarkar | BBA student | Social Media Infuencer",
-  description: passenger.summary,
+  title: {
+    default: "Kusum Sarkar | BBA Student & Social Media Influencer",
+    template: "%s | Kusum Sarkar",
+  },
+  description:
+    "Kusum Sarkar is a BBA student and social media influencer from Butwal, Nepal, known for content creation, public speaking, event marketing, and media hosting.",
+  keywords: [
+    "Kusum Sarkar",
+    "Kusum Sarkar Nepal",
+    "Kusum Sarkar portfolio",
+    "BBA student Nepal",
+    "social media influencer Nepal",
+    "Butwal content creator",
+    "Kusum Sarkar influencer",
+    "Kusum Sarkar education",
+  ],
+  authors: [{ name: passenger.fullName }],
+  alternates: { canonical: siteUrl },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
-    title: "Kusum Sarkar | BBA student | Social Media Infuencer",
-    description: passenger.summary,
+    title: "Kusum Sarkar | BBA Student & Social Media Influencer",
+    description:
+      "Explore the portfolio of Kusum Sarkar, a BBA student and social media influencer from Butwal, Nepal.",
     url: siteUrl,
-    siteName: airportName,
-    type: "website",
+    siteName: passenger.fullName,
+    type: "profile",
+    locale: "en_US",
     images: [
       {
-        url: `${siteUrl}/og-image.png`,
+        url: `${siteUrl}/og-image.svg`,
         width: 1200,
         height: 630,
-        type: "image/png",
-        alt: `${passenger.fullName} — Portfolio`,
+        type: "image/svg+xml",
+        alt: `${passenger.fullName} — Portfolio Preview`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kusum Sarkar | BBA student | Social Media Infuencer",
-    description: passenger.summary,
-    images: [`${siteUrl}/og-image.png`],
+    title: "Kusum Sarkar | BBA Student & Social Media Influencer",
+    description:
+      "Explore the portfolio of Kusum Sarkar, a BBA student and social media influencer from Butwal, Nepal.",
+    images: [`${siteUrl}/og-image.svg`],
   },
   icons: {
     icon: "/favicon.ico",
@@ -57,6 +87,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: passenger.fullName,
+    jobTitle: passenger.title,
+    url: siteUrl,
     email: passenger.email,
     telephone: passenger.phone,
     address: {
@@ -65,6 +97,14 @@ export default function RootLayout({
       addressCountry: passenger.country,
     },
     description: passenger.summary,
+    knowsAbout: [
+      "Content creation",
+      "Social media influencing",
+      "Event marketing",
+      "Public speaking",
+      "Frontend development",
+      "Business administration",
+    ],
   };
 
   return (

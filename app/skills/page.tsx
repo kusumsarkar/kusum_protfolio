@@ -4,8 +4,9 @@ import { ConveyorBelt } from "@/components/destinations/ConveyorBelt";
 import { passenger } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `Skills — ${passenger.fullName}`,
-  description: "Skills and strengths, sorted by category.",
+  title: `Skills ${passenger.fullName}`,
+  description:
+    "Discover Kusum Sarkar's strengths in communication, public speaking, leadership, marketing, and technical work.",
 };
 
 export default function SkillsPage() {

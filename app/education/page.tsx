@@ -4,8 +4,9 @@ import { RouteTimeline } from "@/components/destinations/RouteTimeline";
 import { education, training, passenger } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `Education — ${passenger.fullName}`,
-  description: "Academic itinerary and qualifications.",
+  title: `Education ${passenger.fullName}`,
+  description:
+    "Explore Kusum Sarkar's academic background, including BBA studies and earlier schooling in Nepal.",
 };
 
 export default function EducationPage() {

@@ -4,8 +4,9 @@ import { DutyFreeShowcase } from "@/components/destinations/DutyFreeShowcase";
 import { passenger } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `Projects — ${passenger.fullName}`,
-  description: "Media, hosting, and event marketing work.",
+  title: `Projects ${passenger.fullName}`,
+  description:
+    "See Kusum Sarkar's featured work in media, hosting, event marketing, and digital content creation.",
 };
 
 export default function ProjectsPage() {

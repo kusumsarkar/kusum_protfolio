@@ -5,8 +5,9 @@ import { AchievementBadges } from "@/components/destinations/AchievementBadges";
 import { experience, passenger } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `Experience — ${passenger.fullName}`,
-  description: "Professional experience across instruction, media and events.",
+  title: `Experience ${passenger.fullName}`,
+  description:
+    "View Kusum Sarkar's professional experience in content creation, event marketing, teaching, public speaking, and frontend development.",
 };
 
 export default function ExperiencePage() {

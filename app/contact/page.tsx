@@ -6,8 +6,9 @@ import { ReferencesPanel } from "@/components/destinations/ReferencesPanel";
 import { passenger } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: `Contact — ${passenger.fullName}`,
-  description: "Get in touch.",
+  title: `Contact ${passenger.fullName}`,
+  description:
+    "Contact Kusum Sarkar for collaborations, media opportunities, speaking engagements, or content creation work in Nepal.",
 };
 
 const details = [
