@@ -21,8 +21,8 @@ export const passenger = {
   objective:
     "To be part of a professional organization and work in a challenging environment that offers the opportunity to grow, develop, and contribute to the growth of the organization.",
   summary:
-    "Business Administration student with practical experience across education, event marketing, and media — including test-prep instruction, sponsorship coordination, and public hosting and modelling work. Recognized internationally for a client-facing role opportunity, contingent on degree completion. Known for adaptability, empathy, and the ability to connect confidently with audiences.",
-  status: "BBA student, 2nd semester — currently in transit toward graduation.",
+    "Business Administration student with practical experience across education, event marketing, and media  including test-prep instruction, sponsorship coordination, and public hosting and modelling work. Recognized internationally for a client-facing role opportunity, contingent on degree completion. Known for adaptability, empathy, and the ability to connect confidently with audiences.",
+  status: "BBA student, 2nd semester  currently in transit toward graduation.",
 };
 
 export const airportCode = "KUS";
