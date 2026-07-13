@@ -10,7 +10,7 @@ import type {
 
 export const passenger = {
   fullName: "Kusum Sarkar",
-  title: "BBA Student | Social Media Influencer",
+  title: "BBA Student | Marketing & Communications | Content Creator",
   tagline: "Connecting Communication, Content and Opportunity.",
   location: "Kalikanagar, Butwal",
   city: "Butwal",

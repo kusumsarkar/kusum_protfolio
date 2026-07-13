@@ -18,11 +18,11 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Kusum Sarkar | BBA Student & Social Media Influencer",
+    default: "Kusum Sarkar | BBA Student | Marketing & Communications | Content Creator",
     template: "%s | Kusum Sarkar",
   },
   description:
-    "Kusum Sarkar is a BBA student and social media influencer from Butwal, Nepal, known for content creation, public speaking, event marketing, and media hosting.",
+    "Kusum Sarkar is a BBA student focused on marketing and communications, and a content creator from Butwal, Nepal, known for content creation, public speaking, event marketing, and media hosting.",
   keywords: [
     "Kusum Sarkar",
     "Kusum Sarkar Nepal",
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Kusum Sarkar | BBA Student & Social Media Influencer",
+    title: "Kusum Sarkar | BBA Student | Marketing & Communications | Content Creator",
     description:
-      "Explore the portfolio of Kusum Sarkar, a BBA student and social media influencer from Butwal, Nepal.",
+      "Explore the portfolio of Kusum Sarkar, a BBA student focused on marketing and communications and content creation from Butwal, Nepal.",
     url: siteUrl,
     siteName: passenger.fullName,
     type: "profile",
@@ -66,9 +66,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kusum Sarkar | BBA Student & Social Media Influencer",
+    title: "Kusum Sarkar | BBA Student | Marketing & Communications | Content Creator",
     description:
-      "Explore the portfolio of Kusum Sarkar, a BBA student and social media influencer from Butwal, Nepal.",
+      "Explore the portfolio of Kusum Sarkar, a BBA student focused on marketing and communications and content creation from Butwal, Nepal.",
     images: [`${siteUrl}/og-image.svg`],
   },
   icons: {
