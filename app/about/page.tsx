@@ -6,7 +6,7 @@ import { passenger } from "@/lib/data";
 export const metadata: Metadata = {
   title: `About ${passenger.fullName}`,
   description:
-    "Meet Kusum Sarkar, a BBA student, marketing and communications enthusiast anda content creator from Butwal, Nepal, with experience in content creation, public speaking, event marketing, and frontend development.",
+    "Meet Kusum Sarkar, a BBA student in marketing and communications and a content creator from Butwal, Nepal, with experience in content creation, public speaking, event marketing, and frontend development.",
 };
 
 export default function AboutPage() {
