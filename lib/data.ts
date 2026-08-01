@@ -128,6 +128,18 @@ export const experience: ExperienceEntry[] = [
     ],
   },
   {
+    role: "Content Creator",
+    organization: "Aagan Restaurant",
+    location: "Butwal, Nepal",
+    city: "Butwal",
+    duration: "Ongoing",
+    responsibilities: [
+      "Created content and visuals for Aagan Restaurant’s social media and promotional campaigns.",
+      "Developed engaging short-form video and photo content to support local brand awareness.",
+      "Collaborated with restaurant staff to highlight featured dishes and events.",
+    ],
+  },
+  {
     role: "Event Manager",
     organization: "Event Batauli",
     location: "Butwal, Nepal",
