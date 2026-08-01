@@ -24,9 +24,11 @@ export default function ExperiencePage() {
       </p>
 
       <div className="space-y-4 max-w-3xl">
-        {experience.map((e, i) => (
-          <FlightMapCard key={e.role + e.organization} entry={e} index={i} />
-        ))}
+        {experience
+          .filter((entry) => !entry.hidden)
+          .map((e, i) => (
+            <FlightMapCard key={e.role + e.organization} entry={e} index={i} />
+          ))}
       </div>
 
       <div className="mt-14 max-w-3xl">

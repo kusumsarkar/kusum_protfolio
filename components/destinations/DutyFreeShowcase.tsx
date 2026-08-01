@@ -8,11 +8,12 @@ import type { ProjectEntry } from "@/types";
 
 export function DutyFreeShowcase() {
   const [active, setActive] = useState<ProjectEntry | null>(null);
+  const visibleProjects = projects.filter((project) => !project.hidden);
 
   return (
     <>
       <div className="grid sm:grid-cols-2 gap-5">
-        {projects.map((p, i) => (
+        {visibleProjects.map((p, i) => (
           <motion.button
             key={p.name}
             onClick={() => setActive(p)}

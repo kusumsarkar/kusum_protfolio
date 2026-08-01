@@ -11,15 +11,15 @@ const CATEGORIES: Array<SkillEntry["category"] | "All"> = [
   "Communication",
   "Leadership",
   "Business",
-  "Technical",
   "Other",
 ];
 
 export function ConveyorBelt() {
   const [filter, setFilter] = useState<(typeof CATEGORIES)[number]>("All");
 
-  const visible =
-    filter === "All" ? skills : skills.filter((s) => s.category === filter);
+  const visible = skills.filter(
+    (s) => !s.hidden && (filter === "All" || s.category === filter)
+  );
 
   return (
     <div>

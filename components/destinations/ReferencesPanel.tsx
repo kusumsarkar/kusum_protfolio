@@ -2,6 +2,8 @@ import { Users } from "lucide-react";
 import { references } from "@/lib/data";
 
 export function ReferencesPanel() {
+  const visibleReferences = references.filter((reference) => !reference.hidden);
+
   return (
     <div className="border border-border rounded-sm bg-ivory p-5">
       <div className="flex items-center gap-2 mb-4">
@@ -11,7 +13,7 @@ export function ReferencesPanel() {
         </h3>
       </div>
       <ul className="space-y-3">
-        {references.map((r) => (
+        {visibleReferences.map((r) => (
           <li key={r.name} className="text-sm">
             <p className="font-display font-medium text-text-dark">
               {r.name}

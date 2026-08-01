@@ -115,17 +115,6 @@ export const training = {
 
 export const experience: ExperienceEntry[] = [
   {
-    role: "Content Creator",
-    organization: "OG Records & Aagan Restaurant",
-    location: "Butwal, Nepal",
-    city: "Butwal",
-    duration: "Ongoing",
-    responsibilities: [
-      "Working as a content creator for OG Records.",
-      "Working as a content creator for Aagan Restaurant.",
-    ],
-  },
-  {
     role: "Social Media Influencer",
     organization: "Independent",
     location: "Butwal, Nepal",
@@ -181,6 +170,7 @@ export const experience: ExperienceEntry[] = [
     location: "Nepal",
     city: "Butwal",
     duration: "Completed",
+    hidden: true,
     responsibilities: [
       "Assisted a senior frontend developer in building and maintaining client websites using HTML, CSS, Next.js, and Tailwind CSS.",
       "Built and styled UI components and page layouts based on design direction, contributing to live project builds.",
@@ -242,30 +232,35 @@ export const skills: SkillEntry[] = [
     name: "React.js / Next.js / TypeScript",
     category: "Technical",
     level: 3,
+    hidden: true,
     description: "Building and styling UI components and page layouts on live client projects.",
   },
   {
     name: "TailwindCSS / ShadCN / Redux",
     category: "Technical",
     level: 3,
+    hidden: true,
     description: "Styling and state tooling used in frontend development work.",
   },
   {
     name: "Git / GitHub",
     category: "Technical",
     level: 3,
+    hidden: true,
     description: "Version control for collaborative frontend development.",
   },
   {
     name: "Vercel / Railway",
     category: "Technical",
     level: 3,
+    hidden: true,
     description: "Deployment platforms used for shipping frontend projects.",
   },
   {
     name: "Photoshop / Illustrator",
     category: "Technical",
     level: 3,
+    hidden: true,
     description: "Visual design tools used for content and promotional material.",
   },
 ];
@@ -313,6 +308,7 @@ export const projects: ProjectEntry[] = [
     outcome: "Built and styled UI components and page layouts contributing to live client projects.",
     impact: "Gained hands-on experience with modern frontend workflows on real client work.",
     tags: ["Next.js", "Tailwind CSS", "Frontend"],
+    hidden: true,
   },
 ];
 
@@ -352,6 +348,7 @@ export const references: ReferenceEntry[] = [
     name: "Suhan Shrestha",
     role: "Senior Full Stack Developer",
     organization: "Inovex Media & Tech",
+    hidden: true,
   },
   {
     name: "Prem Raj Pokhrel",

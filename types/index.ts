@@ -32,6 +32,7 @@ export interface ExperienceEntry {
   duration: string;
   city: string;
   responsibilities: string[];
+  hidden?: boolean;
 }
 
 export interface SkillEntry {
@@ -39,6 +40,7 @@ export interface SkillEntry {
   category: "Communication" | "Leadership" | "Business" | "Technical" | "Language" | "Other";
   level: 1 | 2 | 3 | 4 | 5;
   description: string;
+  hidden?: boolean;
 }
 
 export interface ProjectEntry {
@@ -48,6 +50,7 @@ export interface ProjectEntry {
   outcome: string;
   impact: string;
   tags: string[];
+  hidden?: boolean;
 }
 
 export interface AchievementEntry {
@@ -60,4 +63,5 @@ export interface ReferenceEntry {
   name: string;
   role: string;
   organization: string;
+  hidden?: boolean;
 }
