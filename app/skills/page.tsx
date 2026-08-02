@@ -18,7 +18,7 @@ export default function SkillsPage() {
       title="Skills"
     >
       <p className="text-text-muted max-w-2xl mb-8 text-[15px] leading-relaxed">
-        Skills arriving on the belt — filter by category to see what&rsquo;s
+        Skills arriving on the belt - filter by category to see what&rsquo;s
         being carried.
       </p>
       <ConveyorBelt />

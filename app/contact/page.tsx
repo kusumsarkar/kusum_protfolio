@@ -66,7 +66,7 @@ export default function ContactPage() {
               Ground Transport
             </p>
             <p className="text-sm text-text-dark">
-              Every route above connects back to this terminal — email, call,
+              Every route above connects back to this terminal - email, call,
               or visit the portfolio site directly.
             </p>
           </div>

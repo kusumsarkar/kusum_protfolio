@@ -123,7 +123,7 @@ export const experience: ExperienceEntry[] = [
     responsibilities: [
       "Built an Instagram presence with content generating over 1 million views on a single post.",
       "Grew audience engagement through consistent content creation across short-form video and photo formats, developing a recognizable public persona.",
-      "Extended reach beyond Instagram with podcast guest appearances — the \"Seat Down\" series with Mr. Sangeet Sunar and a New Zealand immigration breakdown episode with Student Visa Network on YouTube.",
+      "Extended reach beyond Instagram with podcast guest appearances - the \"Seat Down\" series with Mr. Sangeet Sunar and a New Zealand immigration breakdown episode with Student Visa Network on YouTube.",
       "Collaborated with local brands and events as part of a broader public-facing media presence.",
     ],
   },
@@ -202,7 +202,7 @@ export const skills: SkillEntry[] = [
     name: "Public Speaking",
     category: "Communication",
     level: 5,
-    description: "Confident public speaker — won the guest round at Lumbini Toastmasters Club.",
+    description: "Confident public speaker - won the guest round at Lumbini Toastmasters Club.",
   },
   {
     name: "Audience Engagement",
@@ -288,7 +288,7 @@ export const projects: ProjectEntry[] = [
     tags: ["Media", "Public Speaking", "YouTube"],
   },
   {
-    name: "GBA Unisex Salon — Certification Ceremony",
+    name: "GBA Unisex Salon - Certification Ceremony",
     overview: "Hosted a certification ceremony for GBA Unisex Salon in Kalikanagar, Butwal.",
     role: "Host / Emcee",
     outcome: "Successfully hosted the live ceremony program from start to finish.",
@@ -296,7 +296,7 @@ export const projects: ProjectEntry[] = [
     tags: ["Hosting", "Events"],
   },
   {
-    name: "GBA Unisex Salon — Face Model",
+    name: "GBA Unisex Salon - Face Model",
     overview: "Worked as the face model for GBA Unisex Salon's brand representation.",
     role: "Model",
     outcome: "Represented the salon's brand image in promotional material.",
@@ -304,7 +304,7 @@ export const projects: ProjectEntry[] = [
     tags: ["Modelling", "Brand"],
   },
   {
-    name: "Event Batauli — Concerts & Sponsorship",
+    name: "Event Batauli - Concerts & Sponsorship",
     overview:
       "Led sponsorship acquisition and marketing coordination for live concerts, including shows for artists VZN and Bikki Gurung.",
     role: "Event Manager",
@@ -326,22 +326,22 @@ export const projects: ProjectEntry[] = [
 
 export const achievements: AchievementEntry[] = [
   {
-    title: "2nd Runner-Up — Business Plan Challenge 4.0",
+    title: "2nd Runner-Up : Business Plan Challenge 4.0",
     description:
       "Placed 3rd out of competing teams with a fully functional business plan built around Agave as the main ingredient, producing environmentally and cost-effective products.",
   },
   {
-    title: "Mr. and Miss. Fresher 2024 — Winner",
+    title: "Mr. and Miss. Fresher 2024 : Winner",
     description: "Won Miss Fresher 2024 at Tilottama Campus.",
     date: "17 December 2024",
   },
   {
-    title: "International Recognition — New Zealand",
+    title: "International Recognition : New Zealand",
     description:
       "Recognized and selected to work at Immigration Visa Network, 22 Avanda Avenue, Rolleston, New Zealand, as a Client Relationship Manager. The opportunity required completion of a bachelor's degree, which was still in progress.",
   },
   {
-    title: "Lumbini Toastmasters Club — Guest Round Winner",
+    title: "Lumbini Toastmasters Club : Guest Round Winner",
     description: "Attended and won the guest round at Lumbini Toastmasters Club.",
   },
 ];
