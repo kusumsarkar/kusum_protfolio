@@ -84,7 +84,7 @@ export const education: EducationEntry[] = [
     degree: "Bachelor's Degree, BBA (Current, 2nd Semester)",
     institution: "Siddhartha International College",
     board: "Pokhara University",
-    year: "2nd Semester — In Progress",
+    year: "2nd Semester - In Progress",
     score: "—",
     status: "In Progress",
     note: "Currently pursuing the degree.",
@@ -92,7 +92,7 @@ export const education: EducationEntry[] = [
   {
     degree: "S.L.C. (School Leaving Certificate)",
     institution: "Tilottama Secondary School",
-    board: "—",
+    board: "N.E.B",
     year: "2024",
     score: "B+ Grade",
     status: "Completed",
@@ -100,7 +100,7 @@ export const education: EducationEntry[] = [
   {
     degree: "S.E.E. (Secondary Education Examination)",
     institution: "Meditech Academy",
-    board: "—",
+    board: "N.E.B",
     year: "2022",
     score: "B+ Grade",
     status: "Completed",
