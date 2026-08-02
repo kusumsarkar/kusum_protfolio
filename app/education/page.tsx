@@ -18,7 +18,7 @@ export default function EducationPage() {
       title="Education"
     >
       <p className="text-text-muted max-w-2xl mb-10 text-[15px] leading-relaxed">
-        Every academic milestone plotted as a stop along the route —
+        Every academic milestone plotted as a stop along the route 
         from Secondary Education to an in-progress Bachelor of Business
         Administration.
       </p>
