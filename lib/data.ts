@@ -133,6 +133,7 @@ export const experience: ExperienceEntry[] = [
     location: "Butwal, Nepal",
     city: "Butwal",
     duration: "Ongoing",
+    hidden: true,
     responsibilities: [
       "Created content and visuals for Aagan Restaurant’s social media and promotional campaigns.",
       "Developed engaging short-form video and photo content to support local brand awareness.",
