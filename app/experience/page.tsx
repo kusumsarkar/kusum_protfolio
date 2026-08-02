@@ -19,7 +19,7 @@ export default function ExperiencePage() {
       title="Experience"
     >
       <p className="text-text-muted max-w-2xl mb-8 text-[15px] leading-relaxed">
-        Each role plotted as a destination on the route — instruction,
+        Each role plotted as a destination on the route instruction,
         event marketing, and sponsorship work across Butwal.
       </p>
 
