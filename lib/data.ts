@@ -1,6 +1,6 @@
 import type {
   FlightMeta,
-  EducationEntry,git config --global user.name/email
+  EducationEntry,
   ExperienceEntry,
   SkillEntry,
   ProjectEntry,
