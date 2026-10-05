@@ -1,6 +1,6 @@
 import type {
   FlightMeta,
-  EducationEntry,
+  EducationEntry,git config --global user.name/email
   ExperienceEntry,
   SkillEntry,
   ProjectEntry,
@@ -312,6 +312,16 @@ export const projects: ProjectEntry[] = [
     outcome: "Secured and managed sponsor partnerships supporting event viability.",
     impact: "Contributed directly to the commercial viability of live concert events.",
     tags: ["Marketing", "Sponsorship", "Events"],
+  },
+  {
+    name: "Butwal Bass Chapter-1",
+    overview:
+      "Hosted an event at Club Plan B featuring various artists such as CKARI and BJ47.",
+    role: "HOST",
+    outcome: "Hosted a live music night, keeping the crowd engaged, introducing artists, and managing the flow of the show from start to finish.",
+    impact: "Strengthened my stage presence, public speaking, and event coordination skills while helping grow the local underground music scene.",
+    tags: ["Event Hosting", "Live Music","Public Speaking"],
+    hidden: false,
   },
   {
     name: "Client Frontend Builds",
