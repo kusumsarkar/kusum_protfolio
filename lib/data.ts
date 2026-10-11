@@ -316,7 +316,7 @@ export const projects: ProjectEntry[] = [
   {
     name: "Butwal Bass Chapter-1",
     overview:
-      "Hosted an event at Club Plan B featuring various artists such as CKARI and BJ47.",
+      "Hosted an event at Club Plan B featuring various artists such as Purple&Gwala.",
     role: "HOST",
     outcome: "Hosted a live music night, keeping the crowd engaged, introducing artists, and managing the flow of the show from start to finish.",
     impact: "Strengthened my stage presence, public speaking, and event coordination skills while helping grow the local underground music scene.",
